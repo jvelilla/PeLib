@@ -26,8 +26,8 @@
  *
  */
 
-#include <PeLib/Class.h>
-#include <PeLib/Field.h>
+#include "Class.h"
+#include "Field.h"
 
 namespace DotNetPELib
 {

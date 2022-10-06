@@ -26,8 +26,8 @@
  *
  */
 
-#include <PeLib/Resource.h>
-#include <PeLib/Qualifiers.h>
+#include "Resource.h"
+#include "Qualifiers.h"
 #include <deque>
 #include <map>
 #include <list>

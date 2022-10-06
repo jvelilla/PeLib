@@ -26,7 +26,7 @@
  *
  */
 
-#include <PeLib/DataContainer.h>
+#include "DataContainer.h"
 
 namespace DotNetPELib
 {

@@ -26,8 +26,8 @@
  *
  */
 
-#include <PeLib/DataContainer.h>
-#include <PeLib/CustomAttributeContainer.h>
+#include "DataContainer.h"
+#include "CustomAttributeContainer.h"
 
 namespace DotNetPELib
 {

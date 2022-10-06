@@ -26,7 +26,7 @@
  *
  */
 
-#include <PeLib/CodeContainer.h>
+#include "CodeContainer.h"
 
 namespace DotNetPELib
 {

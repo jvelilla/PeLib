@@ -26,7 +26,7 @@
  *
  */
 
-#include <PeLib/Resource.h>
+#include "Resource.h"
 #include <string>
 
 namespace DotNetPELib

@@ -26,7 +26,7 @@
  *
  */
 
-#include <PeLib/Resource.h>
+#include "Resource.h"
 #include <map>
 #include <list>
 #include <string>
