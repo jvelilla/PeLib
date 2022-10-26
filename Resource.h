@@ -31,7 +31,7 @@ namespace DotNetPELib
         static QSet<RefCounted*> s_inst;
 #endif
     private:
-        quint32 d_refCount;
+        size_t d_refCount;
     };
 
     template<class T>

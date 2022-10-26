@@ -472,11 +472,13 @@ PELib::eFindType PELib::Find(std::string path, Method **result, const std::vecto
 bool PELib::ILSrcDumpHeader(Stream& s)
 {
     s.Out() << ".corflags " << corFlags_ << std::endl << std::endl;
+    std::cout << ".corflags " << corFlags_ << std::endl << std::endl;
     for (std::list<AssemblyDef*>::const_iterator it = assemblyRefs_.begin(); it != assemblyRefs_.end(); ++it)
     {
         (*it)->ILHeaderDump(s);
     }
     s.Out() << std::endl;
+    std::cout << std::endl;
     return true;
 }
 bool PELib::ILSrcDumpFile(Stream& s)
